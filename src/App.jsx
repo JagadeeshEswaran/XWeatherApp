@@ -85,7 +85,10 @@ function App() {
         <p style={{ fontSize: "2rem" }}>Loading data...</p>
       ) : (
         isSuccess && (
-          <section style={{ marginTop: "5rem", display: "flex" }}>
+          <section
+            className=".weather-cards"
+            style={{ marginTop: "5rem", display: "flex" }}
+          >
             <WeatherTile
               disc={"Temparature"}
               data={result.temp}
