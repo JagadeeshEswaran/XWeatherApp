@@ -5,6 +5,7 @@ import React from "react";
 const WeatherTile = ({ disc, data, unit }) => {
   return (
     <article
+      className=".weather-cards"
       style={{
         height: "6rem",
         width: "12rem",
