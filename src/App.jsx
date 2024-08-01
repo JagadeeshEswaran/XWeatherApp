@@ -86,7 +86,7 @@ function App() {
       ) : (
         isSuccess && (
           <section
-            className=".weather-cards"
+            className="weather-cards"
             style={{ marginTop: "5rem", display: "flex" }}
           >
             <WeatherTile
